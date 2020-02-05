@@ -68,10 +68,33 @@ li.fon {
 	background-repeat: no-repeat;
 	}
 
+section.header {
+	background-color: #ffffff;
+}
 
-.container.good-design {
+section.design {
 	background-image: url("img/town.jpg");
 	min-height: 490px;
+}
+
+section.servises {
+	background-color: #f4f4f4;
+}
+
+section.portfolio {
+	background-color: #2e3e4f;
+}
+
+section.we-offer{
+	background-color: #f4f4f4;
+}
+section.footer{
+	background-color: #2e3e4f;
+}
+
+.container.good-design {
+	/*background-image: url("img/town.jpg");
+	min-height: 490px;*/
 	padding-left: 110px;
 	padding-right: 110px;
 	padding-top: 108px;
@@ -100,6 +123,8 @@ p.text-town {
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 1.57rem; /*25px*/
 	font-weight: 700;
+	max-height: 51px;
+	max-width: 242px;
 	}
 
 .our-service {
@@ -111,6 +136,8 @@ p.text-town {
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: -17px;
+	max-height: 35px;
+	max-width: 145px;
 }
 
 .container.items-service {
